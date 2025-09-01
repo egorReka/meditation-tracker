@@ -1,0 +1,27 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-default-white: #ffffff;
+  --color-swamp: #253334;
+  --color-jungle-mist: #bec2c2;
+  --color-granny-smith: #7c9a92;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
