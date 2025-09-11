@@ -4,8 +4,17 @@
   --color-swamp: #253334;
   --color-jungle-mist: #bec2c2;
   --color-granny-smith: #7c9a92;
-  --color-keppel: #69b09c;
   --color-hint-of-red: #f7f3f0;
+  --color-keppel: #69b09c;
+  --color-eden: #2b5b54;
+  --color-fern: #69b069;
+  --color-parsley: #2b5b33;
+  --color-shakespeare: #69a1b0;
+  --color-teal-blue: #2b505b;
+  --color-green-smoke: #9cb069;
+  --color-saratoga: #595b2b;
+  --color-turkish-rose: #b0696a;
+  --color-jazz: #5b2b2c;
 }
 
 *,
@@ -19,14 +28,12 @@
 
 html,
 body {
-  display: grid;
-  min-block-size: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  min-height: 100dvh;
+  min-height: 100svh;
   font-family: "Alegreya", serif;
   font-weight: 400;
   font-size: 15px;
@@ -42,6 +49,11 @@ a {
   color: var(--color-default-white);
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font-family: inherit;
+  background-color: transparent;
 }
 
 img,
