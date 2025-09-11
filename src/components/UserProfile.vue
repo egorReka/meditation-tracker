@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import ButtonFeel from './ButtonFeel.vue';
-import IconRelax from '@/icons/iconRelax.vue';
-import IconCalm from '@/icons/iconCalm.vue';
-import IconFocus from '@/icons/iconFocus.vue';
-import IconAnxious from '@/icons/iconAnxious.vue';
-
+import IconRelax from '@/icons/IconRelax.vue';
+import IconCalm from '@/icons/IconCalm.vue';
+import IconFocus from '@/icons/IconFocus.vue';
+import IconAnxious from '@/icons/IconAnxious.vue';
 </script>
 <template>
 
   <div class="profile">
-    <img class="profile__img" src="../../public/avatar.jpg" alt="avatar">
+    <img class="profile__img" src="../assets/img/avatar.jpg" alt="avatar">
     <h2 class="profile__title">Добро пожаловать, Наталья!</h2>
     <p class="profile__text">Как вы сегодня себя чувствуете?</p>
 
@@ -59,6 +58,7 @@ import IconAnxious from '@/icons/iconAnxious.vue';
 </template>
 <style scope>
 .profile {
+  min-width: 370px;
   padding-top: 23px;
 }
 

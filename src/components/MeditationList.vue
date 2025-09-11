@@ -36,8 +36,11 @@ onMounted(() => {
 <style scope>
 .meditation-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(170px, auto));
+  align-content: flex-start;
   gap: 22px;
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
